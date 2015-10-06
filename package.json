@@ -1,10 +1,11 @@
 {
-  "name": "react-hot-boilerplate",
+  "name": "react-unit-talk",
   "version": "1.0.0",
-  "description": "Boilerplate for ReactJS project with hot code reloading",
+  "description": "Talk about testing library react-unit",
   "scripts": {
     "start": "node server.js",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "test": "mocha --recursive --compilers js:babel/register"
   },
   "repository": {
     "type": "git",
@@ -28,16 +29,28 @@
   },
   "homepage": "https://github.com/gaearon/react-hot-boilerplate",
   "devDependencies": {
+    "autoprefixer-loader": "^3.1.0",
     "babel-core": "^5.8.25",
     "babel-eslint": "^4.1.3",
     "babel-loader": "^5.3.2",
-    "eslint-plugin-react": "^3.6.2",
+    "css-loader": "^0.21.0",
+    "eslint-plugin-react": "^2.3.0",
+    "file-loader": "^0.8.4",
     "react-hot-loader": "^1.3.0",
+    "react-unit": "^1.0.8",
+    "sinon": "^1.17.1",
+    "style-loader": "^0.13.0",
     "webpack": "^1.12.2",
     "webpack-dev-server": "^1.12.1"
   },
   "dependencies": {
-    "react": "^0.14.0",
-    "react-dom": "^0.14.0"
+    "grid-css": "^1.3.4",
+    "is-retina": "^1.0.3",
+    "md5": "^2.0.0",
+    "node-sass": "^3.4.1",
+    "react": "^0.14.1",
+    "react-dom": "^0.14.0",
+    "react-gravatar": "^2.2.0",
+    "sass-loader": "^3.1.1"
   }
 }
