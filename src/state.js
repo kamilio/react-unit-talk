@@ -1,23 +1,20 @@
 // default state
 
+import users from './users';
+
 const defaultState = {
-    user: {
-        name: 'Kamil',
-        email: 'kamil@brandwatch.com',
-    },
-    events: [
-        {name: 'Loaded'}
-    ],
+  history: [],
+  users: users
 }
 
 let state = defaultState;
 
 export function setState(newState) {
-    state = newState;
-    console.log(state);
-    return state;
+  state = newState;
+  console.log(state);
+  return state;
 }
 
 export function getState() {
-    return state;
+  return state;
 }

@@ -1,19 +1,26 @@
 export default [
-    {
-        firstname: 'Kamil',
-        lastname: 'Jopek',
-        email: 'kamil@brandwatch.com',
-    },
+  {
+    firstname: 'Lucille',
+    lastname: 'Stanley',
+    email: 'lucille.stanley96@example.com',
+  },
 
-    {
-        firstname: 'Sebastian',
-        lastname: 'Lazar',
-        email: 'sebastian@brandwatch.com',
-    },
+  {
+    firstname: 'jim',
+    lastname: 'murphy',
+    email: 'jim.murphy31@example.com',
+  },
 
-    {
-        firstname: 'Stefan',
-        lastname: 'Buck',
-        email: 'stefanb@brandwatch.com',
-    }
+  {
+    firstname: 'Tommy',
+    lastname: 'Beck',
+    email: 'tommy.beck59@example.com',
+  },
+
+  {
+    firstname: 'clarence',
+    lastname: 'torres',
+    email: 'clarence.torres88@example.com',
+  }
+
 ]

@@ -19,9 +19,12 @@ module.exports = {
   module: {
     loaders: [{
       test: /\.js$/,
-      loaders: ['react-hot', 'babel'],
-
-      include: path.join(__dirname, 'src')
+      loaders: ['react-hot'],
+      exclude: /node_modules/,
+    },{
+      test: /\.js$/,
+      loaders: ['babel-loader'],
+      exclude: /node_modules/,
     }, {
       test: /\.scss$/,
       loader: 'style!css!autoprefixer?browsers=last 2 version!sass?outputStyle=expanded&sourceMap=true&sourceMapContents=true&includePaths[]=./node_modules',
